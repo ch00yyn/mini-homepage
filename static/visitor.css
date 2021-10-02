@@ -1,0 +1,37 @@
+.visitor_scroll {
+    width: 550px;
+    height: 500px;
+    margin: 15px;
+    overflow: auto;
+}
+
+.visitor_title {
+    padding: 10px; 
+    background-color:rgb(235, 235, 235);
+    font-size: 13px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+
+
+.visitor_box {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+.visitor_image {
+    flex: 1;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+}
+
+.visitor_image > img {width: 80%;}
+
+.visitor_text {
+    flex: 5;
+    font-size: 13px;
+    margin-bottom: 40px;
+    line-height: 140%;
+}

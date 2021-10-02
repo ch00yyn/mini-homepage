@@ -1,0 +1,22 @@
+.photo_scroll {
+    width: 550px;
+    height: 500px;
+    margin: 15px;
+    overflow: auto;
+}
+
+.photo_title {
+    padding: 5px; 
+    word-break: break-all;
+    background-color:rgb(255, 221, 221);
+    font-size: 13px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.photo_text {
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 8px;
+    margin-bottom: 40px;
+}

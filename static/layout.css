@@ -1,0 +1,203 @@
+body {
+    background-color: rgb(170, 170, 170); 
+    background-image: url("./images/pattern.png"); 
+    position:fixed; 
+    top:0; bottom:0; left:0; right:0; 
+    background-size: 90px;
+}
+
+.bookcover {
+    position:relative; 
+    background-color: rgb(241, 190, 190); 
+    width: 960px; height: 660px; 
+    border-radius: 10px; border: 1px solid rgb(131, 131, 131); 
+    margin: 120px auto;
+}
+
+.bookdot {
+    position:absolute; 
+    top:15px; bottom: 15px; left:15px; right: 15px; 
+    border-radius: 10px; border: 2px dashed white;
+}
+
+.page {
+    position:absolute; 
+    top:10px; bottom: 10px; left: 10px; right: 10px; 
+    background-color: rgb(241, 241, 241); 
+    border-radius: 8px; 
+    display: flex;
+}
+
+.box1 {
+    flex: 1; 
+    flex-direction: column; 
+    margin-left: 18px; 
+    margin-right: 25px; 
+    margin-bottom: 18px; 
+    display: flex; 
+    flex-direction: column;
+}
+
+.box2 {
+    flex: 3; 
+    flex-direction:column;
+    margin-bottom: 18px;
+    display: flex;
+    flex-direction: column;
+}
+
+.visitor {
+    flex: 1; 
+    margin-top: 10px; 
+    padding-top: 6px;
+    font-size: 12px; 
+    text-align: center;
+}
+
+.profile {
+    flex:20; 
+    background-color: white; 
+    border-radius: 8px; 
+    border: 0.8px solid rgb(211, 211, 211);
+}
+
+.profile_img {
+    display: block; 
+    margin: auto; 
+    margin-left: 18px; 
+    margin-top: 20px;
+}
+
+.profile_text {
+    text-align: left; 
+    font-size: 12px; 
+    margin-top: 20px; 
+    margin-left: 18px; 
+    font-weight: 500;
+}
+
+.profile_name {
+    text-align: left; 
+    font-size: 12px; 
+    margin-top: 200px; 
+    margin-left: 18px;
+}
+
+.profile_wave {
+    border: 1px solid rgb(170, 170, 170);
+    font-size: 11px;
+    margin-top: 8px;
+    margin-left: 18px;
+    position: relative;
+    padding: 5px;
+    width: 155px;
+    box-sizing: border-box;
+}
+
+.wave_button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wave_title {
+    flex: 1;
+    display:block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-left: 5px;
+}
+
+.wave_triangle {
+    flex: 1;
+    width: 0px;
+    height: 0px;
+    border-left: 4.5px solid transparent;
+    border-right: 4.5px solid transparent;
+    border-top: 5px solid rgb(228, 160, 160);
+    margin-left: 130px;
+}
+
+.inside_wave {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.profile_wave:hover > .inside_wave {display: block;}
+
+.inside_wave > a {
+    display: block;
+    background-color: rgb(212, 182, 182);
+    box-shadow: 0px 8px 16px 0px rgb(160, 112, 112);
+    padding: 5px;
+    color: black;
+    text-decoration: none;
+}
+
+.inside_wave > a:hover {background-color: rgb(241, 160, 160);}
+
+
+.homepage_introduce {
+    flex: 1; 
+    margin-top: 15px; 
+    font-size: 12px; 
+    text-align: left; 
+    display: flex; 
+    flex-direction: row;
+}
+
+.homepage_name {
+    flex: 1; 
+    font-size: 12px; 
+    text-align: left;
+}
+
+.homepage_url {
+    flex: 1; 
+    font-size: 12px; 
+    text-align: left;
+}
+
+.change {
+    flex: 20; 
+    background-color: white; 
+    border-radius: 8px; 
+    border: 0.8px solid rgb(212, 212, 212); 
+    display: flex; 
+    flex-direction: column;
+}
+
+.menu {
+    flex: 0.4; 
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 18px; 
+    margin-right: 18px; 
+    margin-top: 30px;
+}
+
+.menu_empty_up {flex:1.5;}
+
+.menu_button {
+    flex:1;
+    padding-top: 7px;
+    padding-left: 4px;
+    margin-top: 10px ;
+    margin-right: 6px;
+    font-size: 12px;
+    color: rgb(73, 73, 73);
+    background-color: #ffd7d7;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    text-decoration: none;
+}
+
+.menu_empty_down {flex: 17;}
+
+a:hover {background-color: rgb(248, 178, 178);}

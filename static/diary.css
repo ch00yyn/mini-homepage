@@ -1,0 +1,88 @@
+.calendar {
+    flex: 1;
+    margin: 15px;
+    display: flex;
+}
+
+.calendar1 {
+    flex: 1;
+    color: pink;
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+.calendar2 {
+    flex: 5;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.date {
+    flex: 25px;
+    font-size: 12px;
+}
+
+.dairy {
+    flex: 30;
+}
+
+.diary_scroll {
+    width: 550px;
+    height: 450px;
+    margin: 15px;
+    overflow: auto;
+}
+
+.diary_box {
+    border: 1px solid rgb(212, 212, 212);
+    margin-bottom: 10px;
+}
+
+.diary_date {
+    padding-left: 40px;
+    padding-top: 20px;
+    word-break: break-all;
+    color: salmon;
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.diary_text {
+    font-size: 13px;
+    padding: 5px 40px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    text-align: center;
+    word-break: break-all;
+    line-height: 30px;
+}
+
+.secret_box {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .secret_button {
+    background: #fff;
+    color: #fff;
+    padding: 5px;
+    cursor: pointer;
+    transition: 500ms ease all;
+    border: none;
+    font-size: 13px;
+  }
+  
+  .secret_button:hover {
+    background: #ffcece;
+    color: rgb(68, 68, 68);
+  }
+  
+  .fas {
+    margin-right: 0.5rem;
+    font-size: 0.5rem;
+  }
+
+  #secret_entry {
+      display: none;
+  }
